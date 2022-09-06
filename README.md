@@ -1,6 +1,6 @@
 # mini-slack
 
-<img src="../minislack/src/assets/logo.svg">
+![Alt text](./src/assets/logo.svg)
 
 A lightweight realtime private chat application
 - Vite+React
