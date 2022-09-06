@@ -26,10 +26,60 @@
             height: 100px;
         }
 
+        .title {
+            font-size: 14px;
+        }
+
         form {
             display: flex;
             flex-direction: column;
             gap: 15px;
+
+            input {
+                padding: 15px;
+                border: 1px solid #bebebe;
+
+                &::placeholder {
+                    color: rgb(175, 175, 175);
+                }
+            }
+
+            button {
+                background-color: #F20050;
+                color: white;
+                padding: 10px;
+                font-weight: bold;
+                cursor: pointer;
+                border: none;
+            }
+
+            label {
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                cursor: pointer;
+                font-size: 14px;
+                border: 1px solid #bebebe;
+                padding: 20px;
+
+                img {
+                    width: 35px;
+                    height: 35px;
+                }
+            }
+        }
+
+        p {
+            font-size: 14px;
+            margin-top: 10px;
         }
     }
+}
+
+.home {
+    background-color: #F1F1F1;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
