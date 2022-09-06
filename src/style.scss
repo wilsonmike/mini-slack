@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+.formContainer {
+    background: rgb(222, 244, 253);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .formWrapper {
+        background-color: #e9f8ff;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        padding: 20px 60px;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+
+        .logo {
+            font-weight: bold;
+            width: 250px;
+            height: 100px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+    }
+}
