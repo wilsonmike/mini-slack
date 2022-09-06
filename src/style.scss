@@ -82,4 +82,119 @@
     display: flex;
     align-items: center;
     justify-content: center;
+
+    .container {
+        border: 1px solid white;
+        border-radius: 10px;
+        width: 65%;
+        height: 80%;
+        display: flex;
+        overflow: hidden;
+
+        .sidebar {
+            flex: 1;
+            background-color: #F20050;
+
+            .navbar {
+                display: flex;
+                align-items: center;
+                background-color: #931a3c;
+                height: 50px;
+                padding: 10px;
+                justify-content: space-between;
+                color: white;
+
+                .logo {
+                    width: 125px;
+                    height: 40px;
+                }
+
+                .user {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 10px;
+
+                    img {
+                        background-color: white;
+                        height: 24px;
+                        width: 24px;
+                        border-radius: 50%;
+                        object-fit: cover;
+                    }
+
+                    button {
+                        background-color: #7f042d;
+                        height: 32px;
+                        width: 70px;
+                        color: white;
+                        font-size: 12px;
+                        border: none;
+                        cursor: pointer;
+                        border-radius: 25px;
+                    }
+                }
+            }
+
+            .search {
+                border-bottom: 1px solid rgb(233, 102, 102);
+
+                .searchForm {
+                    padding: 10px;
+
+                    input {
+                        background-color: transparent;
+                        border: none;
+                        color: white;
+                        outline: none;
+                        font-size: 14px;
+
+                        &::placeholder {
+                            color: lightgray;
+                            font-size: 14px;
+
+                        }
+                    }
+                }
+            }
+
+            .userChat {
+                padding: 10px;
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                color: white;
+                cursor: pointer;
+
+                &:hover {
+                    background-color: #931a3c;
+                }
+
+                img {
+                    width: 50px;
+                    height: 50px;
+                    border-radius: 50%;
+                    object-fit: cover;
+                }
+
+                .userChatInfo {
+                    span {
+                        font-size: 18px;
+                        font-weight: 500;
+                    }
+
+                    p {
+                        font-size: 14px;
+                        color: lightgray;
+                    }
+                }
+            }
+
+        }
+
+        .chat {
+            flex: 2;
+        }
+
+    }
 }
