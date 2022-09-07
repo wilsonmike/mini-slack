@@ -77,7 +77,7 @@
 }
 
 .home {
-    background: rgb(228, 228, 228);
+    background: rgb(255, 221, 221);
     height: 100vh;
     display: flex;
     align-items: center;
@@ -93,12 +93,12 @@
 
         .sidebar {
             flex: 1;
-            background-color: #7f042d;
+            background-color: #d70249;
 
             .navbar {
                 display: flex;
                 align-items: center;
-                background-color: #931a3c;
+                background-color: #F20050;
                 height: 50px;
                 padding: 10px;
                 justify-content: space-between;
@@ -124,7 +124,7 @@
                     }
 
                     button {
-                        background-color: #7f042d;
+                        background-color: #b8013e;
                         height: 32px;
                         width: 70px;
                         color: white;
@@ -137,7 +137,7 @@
             }
 
             .search {
-                border-bottom: 1px solid #931a3c;
+                border-bottom: 1px solid #d70249;
 
                 .searchForm {
                     padding: 10px;
@@ -167,7 +167,7 @@
                 cursor: pointer;
 
                 &:hover {
-                    background-color: #931a3c;
+                    background-color: #c10342;
                 }
 
                 img {
@@ -197,7 +197,7 @@
 
             .chatInfo {
                 height: 50px;
-                background-color: #7f042d;
+                background-color: #d70249;
                 display: flex;
                 align-items: center;
                 justify-content: space-between;
@@ -216,7 +216,7 @@
             }
 
             .messages {
-                background: rgb(240, 240, 240);
+                background: rgb(255, 255, 255);
                 padding: 10px;
                 height: calc(100% - 160px);
                 overflow: scroll;
@@ -241,6 +241,8 @@
                     }
 
                     .messageContent {
+                        min-width: 80%;
+
                         img {
                             width: 50%;
                         }
@@ -282,8 +284,10 @@
                         border: none;
                         padding: 10px;
                         color: white;
-                        background-color: #7f042d;
+                        background-color: #b8013e;
                         cursor: pointer;
+                        border-radius: 25px;
+                        width: 60px;
                     }
                 }
             }
