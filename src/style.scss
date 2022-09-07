@@ -93,7 +93,7 @@
 
         .sidebar {
             flex: 1;
-            background-color: #831433;
+            background-color: #7f042d;
 
             .navbar {
                 display: flex;
@@ -137,7 +137,7 @@
             }
 
             .search {
-                border-bottom: 1px solid rgb(155, 67, 89);
+                border-bottom: 1px solid #931a3c;
 
                 .searchForm {
                     padding: 10px;
@@ -167,8 +167,7 @@
                 cursor: pointer;
 
                 &:hover {
-                    background-color: #700b27;
-
+                    background-color: #931a3c;
                 }
 
                 img {
@@ -198,7 +197,7 @@
 
             .chatInfo {
                 height: 50px;
-                background-color: #670525;
+                background-color: #7f042d;
                 display: flex;
                 align-items: center;
                 justify-content: space-between;
@@ -220,6 +219,33 @@
                 background: rgb(240, 240, 240);
                 padding: 10px;
                 height: calc(100% - 160px);
+                overflow: scroll;
+
+                .message {
+                    display: flex;
+                    gap: 20px;
+                    margin-bottom: 20px;
+
+                    .messageInfo {
+                        display: flex;
+                        flex-direction: column;
+                        color: gray;
+                        font-weight: 300;
+
+                        img {
+                            width: 40px;
+                            height: 40px;
+                            border-radius: 50%;
+                            object-fit: cover;
+                        }
+                    }
+
+                    .messageContent {
+                        img {
+                            width: 50%;
+                        }
+                    }
+                }
             }
 
             .input {
@@ -256,7 +282,7 @@
                         border: none;
                         padding: 10px;
                         color: white;
-                        background-color: #a12037;
+                        background-color: #7f042d;
                         cursor: pointer;
                     }
                 }
