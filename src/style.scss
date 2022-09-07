@@ -77,14 +77,13 @@
 }
 
 .home {
-    background-color: #F1F1F1;
+    background: rgb(255, 225, 225);
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
 
     .container {
-        border: 1px solid white;
         border-radius: 10px;
         width: 65%;
         height: 80%;
@@ -93,7 +92,7 @@
 
         .sidebar {
             flex: 1;
-            background-color: #F20050;
+            background-color: #ce0f45;
 
             .navbar {
                 display: flex;
@@ -137,7 +136,7 @@
             }
 
             .search {
-                border-bottom: 1px solid rgb(233, 102, 102);
+                border-bottom: 1px solid rgb(195, 112, 112);
 
                 .searchForm {
                     padding: 10px;
@@ -150,7 +149,7 @@
                         font-size: 14px;
 
                         &::placeholder {
-                            color: lightgray;
+                            color: white;
                             font-size: 14px;
 
                         }
@@ -185,7 +184,7 @@
 
                     p {
                         font-size: 14px;
-                        color: lightgray;
+                        color: rgb(240, 240, 240);
                     }
                 }
             }
@@ -194,6 +193,64 @@
 
         .chat {
             flex: 2;
+
+            .chatInfo {
+                height: 50px;
+                background-color: #7f042d;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding: 10px;
+                color: white;
+            }
+
+            .chatIcons {
+                display: flex;
+                gap: 10px;
+
+                img {
+                    height: 24px;
+                    cursor: pointer;
+                }
+            }
+
+            .messages {
+                background: rgb(255, 249, 249);
+                padding: 10px;
+                height: calc(100% - 160px);
+            }
+
+            .input {
+                height: 50px;
+                background-color: white;
+                padding: 10px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+
+                input {
+                    width: 100%;
+                    border: none;
+                    outline: none;
+                    color: #2f2d52;
+                    font-size: 18px;
+
+                    &::placeholder {
+                        color: lightgray;
+                    }
+                }
+
+                .send {
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+
+                    img {
+                        height: 24px;
+                        cursor: pointer;
+                    }
+                }
+            }
         }
 
     }
