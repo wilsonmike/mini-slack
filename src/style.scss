@@ -77,13 +77,14 @@
 }
 
 .home {
-    background: rgb(255, 225, 225);
+    background: rgb(251, 238, 238);
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
 
     .container {
+        box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
         border-radius: 10px;
         width: 65%;
         height: 80%;
@@ -92,7 +93,7 @@
 
         .sidebar {
             flex: 1;
-            background-color: #ce0f45;
+            background-color: #7c0e2d;
 
             .navbar {
                 display: flex;
@@ -136,7 +137,7 @@
             }
 
             .search {
-                border-bottom: 1px solid rgb(195, 112, 112);
+                border-bottom: 1px solid rgb(155, 67, 89);
 
                 .searchForm {
                     padding: 10px;
@@ -166,7 +167,8 @@
                 cursor: pointer;
 
                 &:hover {
-                    background-color: #931a3c;
+                    background-color: #700b27;
+
                 }
 
                 img {
@@ -215,7 +217,7 @@
             }
 
             .messages {
-                background: rgb(255, 249, 249);
+                background: rgb(239, 232, 232);
                 padding: 10px;
                 height: calc(100% - 160px);
             }
@@ -247,6 +249,14 @@
 
                     img {
                         height: 24px;
+                        cursor: pointer;
+                    }
+
+                    button {
+                        border: none;
+                        padding: 10px;
+                        color: white;
+                        background-color: #a12037;
                         cursor: pointer;
                     }
                 }
