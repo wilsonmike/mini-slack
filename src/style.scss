@@ -95,7 +95,7 @@
 }
 
 .home {
-    background-color: #e3e3e3;
+    background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
     height: 100vh;
     display: flex;
     align-items: center;
@@ -115,7 +115,7 @@
 
         .sidebar {
             flex: 1;
-            background-color: #eeeeee;
+            background-color: #E14363;
             position: relative;
 
             .navbar {
@@ -169,7 +169,7 @@
             }
 
             .search {
-                border-bottom: 1px solid #e0e0e0;
+                border-bottom: 1px solid #d43a4e;
 
                 .searchForm {
                     padding: 10px;
@@ -177,12 +177,12 @@
                     input {
                         background-color: transparent;
                         border: none;
-                        color: rgb(19, 19, 19);
+                        color: rgb(238, 238, 238);
                         outline: none;
                         font-size: 14px;
 
                         &::placeholder {
-                            color: rgb(176, 176, 176);
+                            color: rgb(234, 234, 234);
                             font-size: 14px;
 
                         }
@@ -195,11 +195,11 @@
                 display: flex;
                 align-items: center;
                 gap: 10px;
-                color: rgb(95, 95, 95);
+                color: rgb(234, 234, 234);
                 cursor: pointer;
 
                 &:hover {
-                    background-color: #dedede;
+                    background-color: #ea4c6b;
                 }
 
                 img {
@@ -217,7 +217,7 @@
 
                     p {
                         font-size: 14px;
-                        color: rgb(164, 164, 164);
+                        color: rgb(225, 191, 191);
                     }
                 }
             }
@@ -248,7 +248,8 @@
             }
 
             .messages {
-                background-color: #ffffff;
+                background-image: radial-gradient(73% 147%, #EADFDF 59%, #ECE2DF 100%), radial-gradient(91% 146%, rgba(255, 255, 255, 0.50) 47%, rgba(0, 0, 0, 0.50) 100%);
+                background-blend-mode: screen;
                 padding: 10px;
                 height: calc(100% - 160px);
                 overflow: scroll;
@@ -261,7 +262,7 @@
                     .messageInfo {
                         display: flex;
                         flex-direction: column;
-                        color: rgb(157, 157, 157);
+                        color: rgb(168, 168, 168);
                         font-size: 11px;
 
                         img {
