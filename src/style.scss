@@ -85,7 +85,7 @@
     justify-content: center;
 
     .container {
-        box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
         border-radius: 10px;
         width: 65%;
         height: 80%;
@@ -95,7 +95,7 @@
         .sidebar {
             flex: 1;
             background-color: #ec8086;
-
+            box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 
             .navbar {
                 display: flex;
@@ -105,6 +105,8 @@
                 padding: 10px;
                 justify-content: space-between;
                 color: rgb(255, 222, 222);
+                box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+
 
 
                 .logo {
@@ -223,7 +225,7 @@
                 padding: 10px;
                 height: calc(100% - 160px);
                 overflow: scroll;
-
+                box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
 
                 .message {
                     display: flex;
@@ -274,7 +276,7 @@
 
                             p {
                                 color: white;
-                                background-color: rgb(85, 195, 239);
+                                background-color: #0eabdf;
                                 border-radius: 10px 0px 10px 10px;
                             }
                         }
@@ -336,7 +338,7 @@
 /* Track */
 ::-webkit-scrollbar-track {
     -webkit-box-shadow: inset 0 0 2px rgba(124, 55, 55, 0.3);
-    background: rgb(240, 197, 197);
+    background: rgb(242, 214, 214);
 }
 
 /* Handle */
@@ -346,5 +348,5 @@
 }
 
 ::-webkit-scrollbar-thumb:window-inactive {
-    background: rgba(239, 205, 205, 0.8);
+    background: rgba(243, 213, 213, 0.8);
 }
