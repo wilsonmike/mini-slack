@@ -95,13 +95,7 @@
 }
 
 .home {
-    background: #ED4264;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #ffedbc, #ED4264);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #FFEDBC, #ED4264);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+    background-color: rgb(254, 144, 144);
     height: 100vh;
     display: flex;
     align-items: center;
@@ -256,7 +250,7 @@
             }
 
             .messages {
-                background-color: #dd8f98;
+                background-color: #ffc7cd;
                 padding: 10px;
                 height: calc(100% - 160px);
                 overflow: scroll;
@@ -270,7 +264,7 @@
                     .messageInfo {
                         display: flex;
                         flex-direction: column;
-                        color: rgb(246, 211, 211);
+                        color: rgb(217, 131, 131);
                         font-size: 11px;
 
                         img {
